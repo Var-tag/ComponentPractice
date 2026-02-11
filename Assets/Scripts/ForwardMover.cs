@@ -4,15 +4,14 @@ using UnityEngine;
 
 public class ForwardMover : MonoBehaviour
 {
-    // Start is called before the first frame update
+    [SerializeField] private float _moveSpeed;
     void Start()
     {
         
     }
 
-    // Update is called once per frame
     void Update()
     {
-        transform.Translate(Vector3.forward * Time.deltaTime);
+        transform.Translate(Vector3.forward * _moveSpeed * Time.deltaTime);
     }
 }
