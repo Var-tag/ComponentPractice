@@ -154,7 +154,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 443e69f46d593914ab53893af252e9aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GrowSpeed: 0.05
+  _growSpeed: 0.05
 --- !u!136 &578900236
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -369,7 +369,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 468ac63d6f841854eb2a593e3e946ae1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RotationSpeed: 50
+  _rotationSpeed: 100
 --- !u!65 &729403290
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -581,7 +581,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 443e69f46d593914ab53893af252e9aa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GrowSpeed: 0.1
+  _growSpeed: 0.1
 --- !u!114 &1406222914
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -594,7 +594,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 468ac63d6f841854eb2a593e3e946ae1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RotationSpeed: 30
+  _rotationSpeed: 100
 --- !u!65 &1406222915
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -713,6 +713,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3db11d1ee940f23418c332823514f6c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _moveSpeed: 1
 --- !u!135 &1705487104
 SphereCollider:
   m_ObjectHideFlags: 0
